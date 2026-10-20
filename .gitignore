@@ -1,0 +1,41 @@
+# Local environments and notebook state
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+.env.*
+!.env.example
+
+# Downloaded data, archives, trained models and generated outputs
+*.csv
+*.tsv
+*.jsonl
+*.parquet
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.h5
+*.npz
+*.zip
+*.gz
+*.xlsx
+*.xls
+outputs/
+models/
+reports/
+*.pdf
+*.docx
+*.tex
+
+# Data directory: publish setup notes only
+data/*
+!data/README.md
+!data/.gitkeep
+
+# Operating-system files
+.DS_Store
+Thumbs.db
